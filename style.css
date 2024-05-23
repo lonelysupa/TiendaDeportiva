@@ -1,0 +1,222 @@
+  .contenidoHome {
+    background-color: #00321A;
+    
+  }
+  .navbar {
+    background-color: rgb(196, 196, 218); 
+    width: 100%;
+    
+  }
+  .navbar .nav-link {
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 20px;
+    padding: 5px 10px; 
+    margin: 5px; 
+    background-color: rgb(193, 212, 212);
+  }
+  .navbar .navbar-brand{
+    color: rgb(8, 8, 8); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .navbar .dropdown-menu {
+    background-color: rgba(230, 215, 215, 0.7); 
+    width: 50px;
+    
+  }
+  .btn-outline-success {
+    color: white; 
+    border-color: white; 
+    margin-right: 30px;
+  }
+  .btn-outline-success:hover {
+    background-color: white; 
+    color: rgb(89, 158, 104);
+  }
+  .InventarioCont{
+    width: 50%;
+    margin-left: 10px;
+  }
+  .carro-img-top{
+  width: 5%;
+
+  }
+
+  .card-img-top{
+    width:100%;
+  }
+  .agregar{
+    width: 25px;
+  }
+
+  .titutoHome{
+    font-size: 100px;
+    margin-top: 20px;
+    margin-left: 450px;
+  }
+
+  .container{
+
+    margin-top: 4%;
+  }
+
+  .abajo{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .navpag{
+    align-items: center;
+  }
+
+  .pagination{
+    
+    align-items: center;
+  }
+
+  /* login*/
+  .login-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: 10%;
+    margin-left: 38%;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.botonLogIn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font: 1em sans-serif;
+    color: #333;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/*contacto*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.informacion {
+  width: 45%;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.formulario {
+  width: 45%;
+  margin-top: 40px;
+  margin-right: 200px;
+}
+
+/* Estilos para el formulario */
+.formulario {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #0c0b0b;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formulario form {
+  margin-top: 20px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario textarea {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00321A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #00543C;
+}
+
+.formulario button:hover {
+  background-color: #00543C;
+}
+
+/* Estilos para la información de contacto */
+.informacion h2 {
+  color: #00321A;
+}
+
+.informacion p {
+  margin-bottom: 10px;
+}
+
+.informacion h3 {
+  color: #00321A;
+  margin-top: 20px;
+}
